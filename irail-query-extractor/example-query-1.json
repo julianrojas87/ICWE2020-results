@@ -1,0 +1,110 @@
+{
+    "query": {
+        "arrivalStop": {
+            "@id": "http://irail.be/stations/NMBS/008813003",
+            "latitude": "50.845658",
+            "longitude": "4.356801",
+            "name": "Brussels-Central",
+            "query": "Brussel-Centraal/Bruxelles-Central"
+        },
+        "dateTime": "2019-11-01T03:38:00+01:00",
+        "departureStop": {
+            "@id": "http://irail.be/stations/NMBS/008895000",
+            "latitude": "50.942813",
+            "longitude": "4.039653",
+            "name": "Aalst",
+            "query": "Aalst"
+        },
+        "journeyoptions": [
+            {
+                "journeys": [
+                    {
+                        "arrivalStop": "http://irail.be/stations/NMBS/008812005",
+                        "departureStop": "http://irail.be/stations/NMBS/008895000",
+                        "trip": "S102076"
+                    },
+                    {
+                        "arrivalStop": "http://irail.be/stations/NMBS/008813003",
+                        "departureStop": "http://irail.be/stations/NMBS/008812005",
+                        "trip": "IC12806"
+                    }
+                ]
+            },
+            {
+                "journeys": [
+                    {
+                        "arrivalStop": "http://irail.be/stations/NMBS/008812005",
+                        "departureStop": "http://irail.be/stations/NMBS/008895000",
+                        "trip": "IC2205"
+                    },
+                    {
+                        "arrivalStop": "http://irail.be/stations/NMBS/008813003",
+                        "departureStop": "http://irail.be/stations/NMBS/008812005",
+                        "trip": "IC12703"
+                    }
+                ]
+            },
+            {
+                "journeys": [
+                    {
+                        "arrivalStop": "http://irail.be/stations/NMBS/008812005",
+                        "departureStop": "http://irail.be/stations/NMBS/008895000",
+                        "trip": "IC3604"
+                    },
+                    {
+                        "arrivalStop": "http://irail.be/stations/NMBS/008813003",
+                        "departureStop": "http://irail.be/stations/NMBS/008812005",
+                        "trip": "IC3327"
+                    }
+                ]
+            },
+            {
+                "journeys": [
+                    {
+                        "arrivalStop": "http://irail.be/stations/NMBS/008812005",
+                        "departureStop": "http://irail.be/stations/NMBS/008895000",
+                        "trip": "IC2206"
+                    },
+                    {
+                        "arrivalStop": "http://irail.be/stations/NMBS/008813003",
+                        "departureStop": "http://irail.be/stations/NMBS/008812005",
+                        "trip": "IC12704"
+                    }
+                ]
+            },
+            {
+                "journeys": [
+                    {
+                        "arrivalStop": "http://irail.be/stations/NMBS/008812005",
+                        "departureStop": "http://irail.be/stations/NMBS/008895000",
+                        "trip": "IC3605"
+                    },
+                    {
+                        "arrivalStop": "http://irail.be/stations/NMBS/008813003",
+                        "departureStop": "http://irail.be/stations/NMBS/008812005",
+                        "trip": "IC3328"
+                    }
+                ]
+            },
+            {
+                "journeys": [
+                    {
+                        "arrivalStop": "http://irail.be/stations/NMBS/008812005",
+                        "departureStop": "http://irail.be/stations/NMBS/008895000",
+                        "trip": "IC2207"
+                    },
+                    {
+                        "arrivalStop": "http://irail.be/stations/NMBS/008813003",
+                        "departureStop": "http://irail.be/stations/NMBS/008812005",
+                        "trip": "IC12705"
+                    }
+                ]
+            }
+        ],
+        "language": "EN",
+        "serialization": "json"
+    },
+    "querytime": "2019-11-01T03:38:43+01:00",
+    "querytype": "connections",
+    "user_agent": "pyRail (tielemans.jorim@gmail.com)"
+}

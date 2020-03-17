@@ -1,0 +1,99 @@
+Starting QRail with the following parameters:
+	Departure station: "http://irail.be/stations/NMBS/008833605"
+	Arrival station: "http://irail.be/stations/NMBS/008831401"
+	Departure time (UTC): "2019-11-28T07:00:00.000Z"
+	Current time (UTC): "2020-01-31T17:39:54Z"
+	Max transfers: "4"
+	Mode: "none"
+	Verbose: false
+Reference mode: rollback CSA disabled
+CSA found 16 possible routes
+All routes processed: 35539 ms
+Start reroute
+CSA found 16 possible routes
+All routes processed: 4754 ms
+Start reroute
+CSA found 16 possible routes
+All routes processed: 5372 ms
+Start reroute
+CSA found 16 possible routes
+All routes processed: 12507 ms
+Start reroute
+CSA found 16 possible routes
+All routes processed: 6001 ms
+Start reroute
+CSA found 16 possible routes
+All routes processed: 12802 ms
+Start reroute
+CSA found 16 possible routes
+All routes processed: 6273 ms
+Start reroute
+CSA found 16 possible routes
+All routes processed: 13173 ms
+Start reroute
+CSA found 16 possible routes
+All routes processed: 13213 ms
+Start reroute
+CSA found 16 possible routes
+All routes processed: 6553 ms
+Start reroute
+CSA found 16 possible routes
+All routes processed: 13248 ms
+Start reroute
+CSA found 16 possible routes
+All routes processed: 13258 ms
+Start reroute
+CSA found 16 possible routes
+All routes processed: 6703 ms
+Start reroute
+CSA found 16 possible routes
+All routes processed: 13549 ms
+Start reroute
+CSA found 16 possible routes
+All routes processed: 6853 ms
+Start reroute
+CSA found 16 possible routes
+All routes processed: 6886 ms
+Start reroute
+CSA found 16 possible routes
+All routes processed: 13502 ms
+Start reroute
+CSA found 16 possible routes
+All routes processed: 6931 ms
+Start reroute
+CSA found 16 possible routes
+All routes processed: 13751 ms
+Start reroute
+CSA found 16 possible routes
+All routes processed: 7018 ms
+Start reroute
+CSA found 16 possible routes
+All routes processed: 13734 ms
+Start reroute
+CSA found 16 possible routes
+All routes processed: 7057 ms
+Start reroute
+CSA found 16 possible routes
+All routes processed: 13939 ms
+Start reroute
+CSA found 16 possible routes
+All routes processed: 7156 ms
+Start reroute
+CSA found 16 possible routes
+All routes processed: 13919 ms
+Start reroute
+CSA found 16 possible routes
+All routes processed: 7155 ms
+Start reroute
+CSA found 16 possible routes
+All routes processed: 13914 ms
+Start reroute
+CSA found 16 possible routes
+All routes processed: 7183 ms
+Start reroute
+CSA found 16 possible routes
+All routes processed: 14047 ms
+Start reroute
+CSA found 16 possible routes
+All routes processed: 7234 ms
+Start reroute

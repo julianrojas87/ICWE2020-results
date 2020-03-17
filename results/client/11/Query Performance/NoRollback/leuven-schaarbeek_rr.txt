@@ -1,0 +1,76 @@
+Starting QRail with the following parameters:
+	Departure station: "http://irail.be/stations/NMBS/008833001"
+	Arrival station: "http://irail.be/stations/NMBS/008811007"
+	Departure time (UTC): "2019-11-28T07:00:00.000Z"
+	Current time (UTC): "2020-01-31T17:24:17Z"
+	Max transfers: "4"
+	Mode: "none"
+	Verbose: false
+Reference mode: rollback CSA disabled
+CSA found 25 possible routes
+All routes processed: 5609 ms
+Start reroute
+CSA found 25 possible routes
+All routes processed: 11804 ms
+Start reroute
+CSA found 25 possible routes
+All routes processed: 19174 ms
+Start reroute
+Start reroute
+Start reroute
+Start reroute
+Start reroute
+Start reroute
+Planner timed out, ABORTING NOW
+CSA found 0 possible routes
+All routes processed: 30001 ms
+Start reroute
+CSA found 25 possible routes
+All routes processed: 13302 ms
+Start reroute
+Start reroute
+CSA found 25 possible routes
+All routes processed: 29900 ms
+Start reroute
+Start reroute
+Start reroute
+Start reroute
+Start reroute
+Start reroute
+Planner timed out, ABORTING NOW
+CSA found 0 possible routes
+All routes processed: 30000 ms
+Start reroute
+CSA found 25 possible routes
+All routes processed: 13855 ms
+Start reroute
+Start reroute
+Start reroute
+CSA found 25 possible routes
+All routes processed: 1199 ms
+Start reroute
+CSA found 25 possible routes
+All routes processed: 13697 ms
+Start reroute
+CSA found 25 possible routes
+All routes processed: 7045 ms
+Start reroute
+CSA found 25 possible routes
+All routes processed: 20413 ms
+Start reroute
+CSA found 25 possible routes
+All routes processed: 7093 ms
+Start reroute
+Start reroute
+CSA found 25 possible routes
+All routes processed: 4369 ms
+Start reroute
+CSA found 25 possible routes
+All routes processed: 20624 ms
+Start reroute
+CSA found 25 possible routes
+All routes processed: 7284 ms
+Start reroute
+CSA found 25 possible routes
+All routes processed: 14196 ms
+Start reroute

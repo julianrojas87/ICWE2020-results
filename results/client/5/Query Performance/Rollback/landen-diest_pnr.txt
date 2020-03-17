@@ -1,0 +1,48 @@
+Starting QRail with the following parameters:
+	Departure station: "http://irail.be/stations/NMBS/008833605"
+	Arrival station: "http://irail.be/stations/NMBS/008831401"
+	Departure time (UTC): "2019-11-28T10:00:00.000Z"
+	Current time (UTC): "2020-01-30T10:46:48Z"
+	Max transfers: "4"
+	Mode: "polling"
+	Verbose: false
+Polling subscription set
+CSA found 16 possible routes
+All routes processed: 4086 ms
+Update received 
+Update received 
+Update received 
+Update received 
+Update received 
+Update received 
+Update received 
+Update received 
+Update received 
+Update received 
+Start reroute
+CSA found 16 possible routes
+All routes processed: 1003 ms
+Update received 
+Update received 
+Update received 
+Update received 
+Update received 
+Update received 
+Update received 
+Update received 
+Update received 
+Update received 
+Update received 
+Update received 
+Update received 
+Update received 
+Update received 
+Update received 
+Start reroute
+CSA found 16 possible routes
+All routes processed: 1379 ms
+Update received 
+Update received 
+Update received 
+Update received 
+Update received 

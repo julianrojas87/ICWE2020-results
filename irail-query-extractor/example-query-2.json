@@ -1,0 +1,90 @@
+{
+    "query": {
+        "arrivalStop": {
+            "@id": "http://irail.be/stations/NMBS/008811171",
+            "latitude": "50.854072",
+            "longitude": "4.394421",
+            "name": "Meiser",
+            "query": "Meiser"
+        },
+        "dateTime": "2019-11-01T03:39:00+01:00",
+        "departureStop": {
+            "@id": "http://irail.be/stations/NMBS/008822269",
+            "latitude": "50.9584",
+            "longitude": "4.45749",
+            "name": "Eppegem",
+            "query": "Eppegem"
+        },
+        "journeyoptions": [
+            {
+                "journeys": [
+                    {
+                        "arrivalStop": "http://irail.be/stations/NMBS/008814142",
+                        "departureStop": "http://irail.be/stations/NMBS/008822269",
+                        "trip": "S11776"
+                    },
+                    {
+                        "arrivalStop": "http://irail.be/stations/NMBS/008814456",
+                        "departureStop": "http://irail.be/stations/NMBS/008814142",
+                        "trip": "IC4006"
+                    },
+                    {
+                        "arrivalStop": "http://irail.be/stations/NMBS/008811171",
+                        "departureStop": "http://irail.be/stations/NMBS/008814456",
+                        "trip": "S53357"
+                    }
+                ]
+            },
+            {
+                "journeys": [
+                    {
+                        "arrivalStop": "http://irail.be/stations/NMBS/008811171",
+                        "departureStop": "http://irail.be/stations/NMBS/008822269",
+                        "trip": "S53379"
+                    }
+                ]
+            },
+            {
+                "journeys": [
+                    {
+                        "arrivalStop": "http://irail.be/stations/NMBS/008811171",
+                        "departureStop": "http://irail.be/stations/NMBS/008822269",
+                        "trip": "S53380"
+                    }
+                ]
+            },
+            {
+                "journeys": [
+                    {
+                        "arrivalStop": "http://irail.be/stations/NMBS/008811171",
+                        "departureStop": "http://irail.be/stations/NMBS/008822269",
+                        "trip": "S53381"
+                    }
+                ]
+            },
+            {
+                "journeys": [
+                    {
+                        "arrivalStop": "http://irail.be/stations/NMBS/008811171",
+                        "departureStop": "http://irail.be/stations/NMBS/008822269",
+                        "trip": "S53382"
+                    }
+                ]
+            },
+            {
+                "journeys": [
+                    {
+                        "arrivalStop": "http://irail.be/stations/NMBS/008811171",
+                        "departureStop": "http://irail.be/stations/NMBS/008822269",
+                        "trip": "S53383"
+                    }
+                ]
+            }
+        ],
+        "language": "EN",
+        "serialization": "json"
+    },
+    "querytime": "2019-11-01T03:39:01+01:00",
+    "querytype": "connections",
+    "user_agent": "pyRail (tielemans.jorim@gmail.com)"
+}

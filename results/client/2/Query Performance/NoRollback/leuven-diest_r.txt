@@ -1,0 +1,104 @@
+Starting QRail with the following parameters:
+	Departure station: "http://irail.be/stations/NMBS/008833001"
+	Arrival station: "http://irail.be/stations/NMBS/008831401"
+	Departure time (UTC): "2019-11-28T10:00:00.000Z"
+	Current time (UTC): "2019-11-29T08:57:15Z"
+	Max transfers: "4"
+	Mode: "none"
+	Verbose: false
+Reference mode: rollback CSA disabled
+CSA found 17 possible routes
+All routes processed: 5753 ms
+Start reroute
+CSA found 17 possible routes
+All routes processed: 5302 ms
+Start reroute
+CSA found 17 possible routes
+All routes processed: 5872 ms
+Start reroute
+CSA found 17 possible routes
+All routes processed: 6285 ms
+Start reroute
+CSA found 17 possible routes
+All routes processed: 6492 ms
+Start reroute
+CSA found 17 possible routes
+All routes processed: 6684 ms
+Start reroute
+CSA found 17 possible routes
+All routes processed: 6931 ms
+Start reroute
+CSA found 17 possible routes
+All routes processed: 6914 ms
+Start reroute
+CSA found 17 possible routes
+All routes processed: 6944 ms
+Start reroute
+CSA found 17 possible routes
+All routes processed: 7034 ms
+Start reroute
+CSA found 17 possible routes
+All routes processed: 7069 ms
+Start reroute
+CSA found 17 possible routes
+All routes processed: 7164 ms
+Start reroute
+CSA found 17 possible routes
+All routes processed: 7228 ms
+Start reroute
+CSA found 17 possible routes
+All routes processed: 7251 ms
+Start reroute
+CSA found 17 possible routes
+All routes processed: 7288 ms
+Start reroute
+CSA found 17 possible routes
+All routes processed: 7396 ms
+Start reroute
+CSA found 17 possible routes
+All routes processed: 7576 ms
+Start reroute
+CSA found 17 possible routes
+All routes processed: 7430 ms
+Start reroute
+CSA found 17 possible routes
+All routes processed: 7463 ms
+Start reroute
+CSA found 17 possible routes
+All routes processed: 7513 ms
+Start reroute
+CSA found 17 possible routes
+All routes processed: 7555 ms
+Start reroute
+CSA found 17 possible routes
+All routes processed: 7581 ms
+Start reroute
+CSA found 17 possible routes
+All routes processed: 7627 ms
+Start reroute
+CSA found 17 possible routes
+All routes processed: 7767 ms
+Start reroute
+CSA found 17 possible routes
+All routes processed: 7660 ms
+Start reroute
+CSA found 17 possible routes
+All routes processed: 7707 ms
+Start reroute
+CSA found 17 possible routes
+All routes processed: 7791 ms
+Start reroute
+CSA found 17 possible routes
+All routes processed: 7767 ms
+Start reroute
+CSA found 17 possible routes
+All routes processed: 7741 ms
+Start reroute
+CSA found 17 possible routes
+All routes processed: 7832 ms
+Start reroute
+CSA found 17 possible routes
+All routes processed: 7771 ms
+Start reroute
+CSA found 17 possible routes
+All routes processed: 7773 ms
