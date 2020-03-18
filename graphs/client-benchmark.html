@@ -147,9 +147,9 @@
     <div id="bandwidth"></div>
     <div id="rp"></div>
     <script type="text/javascript">
-        //Plotly.newPlot('cpu', [polling_cpu, pushing_cpu, reference_cpu], layout_cpu);
-        //Plotly.newPlot('ram', [polling_ram, pushing_ram, reference_ram], layout_ram);
-        //Plotly.newPlot('bandwidth', [polling_bandwidth, pushing_bandwidth, reference_bandwidth], layout_bandwidth);
+        Plotly.newPlot('cpu', [polling_cpu, pushing_cpu, reference_cpu], layout_cpu);
+        Plotly.newPlot('ram', [polling_ram, pushing_ram, reference_ram], layout_ram);
+        Plotly.newPlot('bandwidth', [polling_bandwidth, pushing_bandwidth, reference_bandwidth], layout_bandwidth);
         Plotly.newPlot('rp', [rollback, noRollback], layout_rp);
     </script>
 </body>
