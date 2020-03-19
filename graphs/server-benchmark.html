@@ -203,23 +203,74 @@
 
         var layout_cpu = {
             title: 'Server CPU usage',
+            titlefont: {
+                size: 25
+            },
+            xaxis: {
+                title: '(a)',
+                titlefont: {
+                    size: 25
+                },
+                tickfont: {
+                    size: 25
+                }
+            },
             yaxis: {
                 title: 'CPU time percentage',
+                titlefont: {
+                    size: 25
+                },
+                tickfont: {
+                    size: 18
+                }
             }
         }
         var layout_ram = {
             title: 'Server RAM usage',
+            titlefont: {
+                size: 25
+            },
+            xaxis: {
+                title: '(b)',
+                titlefont: {
+                    size: 25
+                },
+                tickfont: {
+                    size: 25
+                }
+            },
             yaxis: {
                 title: 'MegaBytes',
+                titlefont: {
+                    size: 25
+                },
+                tickfont: {
+                    size: 18
+                }
             }
         }
         var layout_bandwidth = {
             title: 'Server bandwidth usage',
+            titlefont: {
+                size: 25
+            },
             xaxis: {
-                title: 'Time (s)'
+                title: 'Time (s)',
+                titlefont: {
+                    size: 25
+                },
+                tickfont: {
+                    size: 18
+                }
             },
             yaxis: {
                 title: 'MegaBytes',
+                titlefont: {
+                    size: 18
+                },
+                tickfont: {
+                    size: 18
+                }
             }
         }
     </script>
@@ -229,9 +280,22 @@
     <div id="cpu"></div>
     <div id="ram"></div>
     <div id="bandwidth"></div>
+    <img id="export-cpu"></img>
+    <img id="export-ram"></img>
     <script type="text/javascript">
-        Plotly.newPlot('cpu', [polling_cpu, pushing_cpu], layout_cpu);
-        Plotly.newPlot('ram', [polling_ram, pushing_ram], layout_ram);
+        var d3 = Plotly.d3;
+        var cpu_svg = d3.select('#export-cpu');
+        var ram_svg = d3.select('#export-ram');
+        Plotly.newPlot('cpu', [polling_cpu, pushing_cpu], layout_cpu).then(function (gd) {
+            Plotly.toImage(gd, { format: 'svg', height: 450, width: 700 }).then(function (url) {
+                cpu_svg.attr("src", url);
+            });
+        });
+        Plotly.newPlot('ram', [polling_ram, pushing_ram], layout_ram).then(function (gd) {
+            Plotly.toImage(gd, { format: 'svg', height: 450, width: 700 }).then(function (url) {
+                ram_svg.attr("src", url);
+            });
+        });
         //Plotly.newPlot('bandwidth', [polling_bandwidth, pushing_bandwidth], layout_bandwidth);
     </script>
 </body>
