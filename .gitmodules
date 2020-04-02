@@ -1,0 +1,10 @@
+[submodule "linked-connections-server"]
+	path = linked-connections-server
+	url = https://github.com/DylanVanAssche/linked-connections-server
+	branch = rt-events
+[submodule "QRail"]
+	path = QRail
+	url = https://github.com/DylanVanAssche/QRail
+[submodule "lc-server-benchmark-client"]
+	path = lc-server-benchmark-client
+	url = https://github.com/DylanVanAssche/lc-server-benchmark-client.git
